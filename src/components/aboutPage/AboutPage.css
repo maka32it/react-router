@@ -1,0 +1,36 @@
+.aboutPage{
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/about.jpg) no-repeat center center/cover ;
+    position: relative;
+}
+.aboutPage .content{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+    
+}
+@media screen and (max-width : 900px) {
+    .aboutPage .content {
+        background-color: rgba(222, 234, 244, 0.5);
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 0;
+        left: 0; 
+        padding: 1rem;
+       
+    }
+    .aboutPage h2{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .aboutPage p{
+        font-size: 20px;
+        text-align: center;
+        padding: .5rem;
+    }
+}
